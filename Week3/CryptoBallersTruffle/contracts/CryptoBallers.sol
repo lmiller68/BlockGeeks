@@ -199,8 +199,8 @@ contract CryptoBallers is ERC721 {
     }
    
    /**
-    * @dev Get the total number of ballers 
-    * @return number of ballers
+    * @dev Get the baller price 
+    * @return price of baller
     */
    function getBallerPrice() public view returns (uint) {
         return ballerFee;
