@@ -1,0 +1,77 @@
+.jumbotron {
+    background-color: #4A4C95;
+    color: white;
+    /*background-image:url(bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	padding:200px 0 140px 0;
+	margin-bottom:70px;*/
+}
+
+#Ballers{
+	list-style-type:none;
+	margin:0px;
+	padding-left:30px;
+}
+
+.baller {
+    margin-right: 33px;
+    margin-bottom: 25px;
+    float:left;
+}
+
+.card-title{
+	text-align:center;
+}
+
+.card-title i{
+	color:#4A4C95; 
+}
+
+ .card-title span{
+ 	color:#9c9c9b;
+ 	font-size:1.5rem;
+ }
+
+.card-img-top{
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+.winLoss{
+	background-color:#4A4C95;
+	color:#fff;
+}
+
+.attributes .fas{
+	color:#4A4C95;
+}
+
+.win{
+	color:green;
+	font-size:2rem;
+}
+
+.loss{
+	color:red;
+	font-size:2rem;	
+}
+
+.owner{
+	font-size:0.75rem;
+}
+
+.owner span{
+ 	color:#666;
+}
+
+.left{
+	float:left;
+	width:20%;
+}
+
+.right{
+	float:left;
+	width:80%;
+}

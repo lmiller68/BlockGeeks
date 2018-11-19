@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CryptoBallers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4 offset-md-1"><i class="fas fa-basketball-ball"></i>&nbsp;&nbsp;CryptoBallers</h1>
+    </div>
+	
+	<div class="container-fluid">
+		
+			<div class="row">
+				<div class="col-6">
+				<div class="card bg-dark text-white mb-3">
+					<div class="card-body"><h2 id="ballerCount"><i class="fas fa-users"></i>&nbsp;&nbsp;</i>Number of Ballers:&nbsp;</h2></div>
+				</div>
+				</div>
+				<div class="col-6">
+				<div class="card bg-dark text-white mb-3">
+					<div class="card-body"><h2 id="ballerPrice"><i class="fas fa-hand-holding-usd"></i>&nbsp;&nbsp;</i>Baller Price:&nbsp;</h2></div>
+				</div>
+				</div>
+			</div>
+		</div>
+	
+		<div id="BallersList">
+			<ul id="Ballers"></ul>
+		</div>
+	</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+    <!-- This exposes the library as a global variable: ethers -->
+    <script src="https://cdn.ethers.io/scripts/ethers-v4.min.js" charset="utf-8" type="text/javascript"></script>
+    <script src="./contract.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+</html>
